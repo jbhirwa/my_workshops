@@ -1,8 +1,7 @@
 #include <iostream>
-#include <algorithm>
 void transformBase(int base10)
 {
-    std::string base2{};
+    std::string base2;
 
     while (base10 > 0)
     {
