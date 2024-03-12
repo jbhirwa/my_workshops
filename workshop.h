@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-void changeValue(double *a);
-void printArray(double *d, int a);
-double arrayMax(double *d, int a);
-double *dynamicArray(int N);
-double *dynamicArray(int N, double M);
+void changeValue(double *);
+void printArray(double *, int);
+double arrayMax(double *, int);
+double *dynamicArray(int);
+double *dynamicArray(int, double);
