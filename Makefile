@@ -9,7 +9,7 @@ main.o: main.cpp workshop.h printArray.cpp arrayMax.cpp changeValue.cpp dynamicA
 run:
 	./workshop
 clean: 
-	rm -r main.o workshop
+	rm -r main.o workshop printArray.o arrayMax.o changeValue.o dynamicArray.o
 
 # you have a linker, that compiles object files into executable
 # you have a target that compiles your source code into object file/s
