@@ -17,7 +17,7 @@ void changeValue(double *a)
 void printArray(double *d, int a)
 {
     for (int i = 0; i < a; i++)
-        cout << d[i];
+        cout << d[i] << " ";
 }
 
 double arrayMax(double *d, int a)
