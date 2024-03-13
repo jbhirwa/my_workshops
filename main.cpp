@@ -9,7 +9,7 @@ int main()
     double *darr = dynamicArray(size, value);
     printArray(darr, size);
     max = arrayMax(darr, size);
-    cout << max;
+    cout << max << endl;
     delete[] darr;
     return (0);
 }
