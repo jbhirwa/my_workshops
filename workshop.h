@@ -1,11 +1,6 @@
 #include <iostream>
 using namespace std;
 
-void changeValue(double *);
-void printArray(double *, int);
-double arrayMax(double *, int);
-double *dynamicArray(int, double);
-
 double *dynamicArray(int N, double M)
 {
     double *darr = new double[N];
@@ -22,7 +17,7 @@ void changeValue(double *a)
 void printArray(double *d, int a)
 {
     for (int i = 0; i < a; i++)
-        cout << d[i] << endl;
+        cout << d[i];
 }
 
 double arrayMax(double *d, int a)
