@@ -6,7 +6,7 @@ class Musician
 
 private:
     int experience;
-    std::string *instrument;
+    std::string instrument;
 
 public:
     Musician();
